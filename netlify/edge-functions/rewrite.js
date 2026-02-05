@@ -1,4 +1,4 @@
-export default async (request: Request, context: any) => {
+export default async (request, context) => {
   return Response.redirect("https://example.com", 302)
 }
 
